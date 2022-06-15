@@ -1,0 +1,17 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 6d2a26fa-5954-4278-a230-a1450542eb60)
+
+  (paper "A4")
+
+  (title_block
+    (title "Denali - Left Keyboard")
+    (date "2022-06-15")
+    (rev "0.1")
+    (company "OSHMount Tech")
+  )
+
+  (lib_symbols
+  )
+
+)
