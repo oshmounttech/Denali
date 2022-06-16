@@ -1,7 +1,7 @@
 (sym_lib_table
-  (lib (name "Kailh")(type "KiCad")(uri "/home/leftengeist/Documents/GitHub/OSHMount-KiCAD-Library/Kailh/Kailh.kicad_sym")(options "")(descr ""))
-  (lib (name "kb2040")(type "KiCad")(uri "/home/leftengeist/Documents/GitHub/OSHMount-KiCAD-Library/KeeBoar/kb2040.kicad_sym")(options "")(descr ""))
-  (lib (name "MAX7314AEG")(type "KiCad")(uri "/home/leftengeist/Documents/GitHub/OSHMount-KiCAD-Library/MAX7314AEG/MAX7314AEG.kicad_sym")(options "")(descr ""))
-  (lib (name "PCA9506")(type "KiCad")(uri "/home/leftengeist/Documents/GitHub/OSHMount-KiCAD-Library/PCA9506DGG/PCA9506.kicad_sym")(options "")(descr ""))
-  (lib (name "Connector_Qwicc")(type "KiCad")(uri "/home/leftengeist/Documents/GitHub/OSHMount-KiCAD-Library/Qwicc/Connector_Qwicc.kicad_sym")(options "")(descr ""))
+  (lib (name "Kailh")(type "KiCad")(uri "${OSWMOUNT_LIBRARY}/Kailh/Kailh.kicad_sym")(options "")(descr ""))
+  (lib (name "kb2040")(type "KiCad")(uri "${OSWMOUNT_LIBRARY}//KeeBoar/kb2040.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX7314AEG")(type "KiCad")(uri "${OSWMOUNT_LIBRARY}/MAX7314AEG/MAX7314AEG.kicad_sym")(options "")(descr ""))
+  (lib (name "PCA9506")(type "KiCad")(uri "${OSWMOUNT_LIBRARY}/PCA9506DGG/PCA9506.kicad_sym")(options "")(descr ""))
+  (lib (name "Connector_Qwicc")(type "KiCad")(uri "${OSWMOUNT_LIBRARY}/Qwicc/Connector_Qwicc.kicad_sym")(options "")(descr ""))
 )
