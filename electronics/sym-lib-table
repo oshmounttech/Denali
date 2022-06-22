@@ -4,4 +4,5 @@
   (lib (name "PCA9506")(type "KiCad")(uri "${OSHMOUNT_LIBRARY}/PCA9506DGG/PCA9506.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_Qwicc")(type "KiCad")(uri "${OSHMOUNT_LIBRARY}/Qwicc/Connector_Qwicc.kicad_sym")(options "")(descr ""))
   (lib (name "Kailh")(type "KiCad")(uri "${OSHMOUNT_LIBRARY}/Kailh/Kailh.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit")(type "KiCad")(uri "${OSHMOUNT_LIBRARY}/Adafruit/Adafruit.kicad_sym")(options "")(descr ""))
 )
