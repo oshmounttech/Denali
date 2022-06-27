@@ -640,6 +640,24 @@
     (pin "4" (uuid bda566d5-b501-4d30-9624-22e1e9b3f556))
   )
 
+  (symbol (lib_id "power:+3.3V") (at 63.5 45.72 270) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid f621dca6-2e8a-4ab7-8a4b-480d0a1e895d)
+    (property "Reference" "#PWR?" (id 0) (at 59.69 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (id 1) (at 67.31 45.7199 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 63.5 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 63.5 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5ac9e4bc-322c-4ce1-942d-8bdf6f2db28f))
+  )
+
   (symbol (lib_id "kb2040:kb2040") (at 48.26 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fd632faa-4435-4a18-abfe-ae5d8fdc9f31)
@@ -897,6 +915,9 @@
     )
     (path "/4bf7e2ed-3223-497b-8c9a-4917a7c5fbb6/d34081d2-1d81-45c2-8cfd-bc05934e3e26"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f621dca6-2e8a-4ab7-8a4b-480d0a1e895d"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/ebc26802-b705-4f7c-957e-e7926732b9b9"
       (reference "J1") (unit 1) (value "Conn_01x04") (footprint "")
