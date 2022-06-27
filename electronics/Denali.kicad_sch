@@ -643,7 +643,7 @@
   (symbol (lib_id "power:+3.3V") (at 63.5 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f621dca6-2e8a-4ab7-8a4b-480d0a1e895d)
-    (property "Reference" "#PWR?" (id 0) (at 59.69 45.72 0)
+    (property "Reference" "#PWR0101" (id 0) (at 59.69 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 67.31 45.7199 90)
@@ -917,7 +917,7 @@
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
     (path "/f621dca6-2e8a-4ab7-8a4b-480d0a1e895d"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/ebc26802-b705-4f7c-957e-e7926732b9b9"
       (reference "J1") (unit 1) (value "Conn_01x04") (footprint "")
@@ -1233,9 +1233,6 @@
     )
     (path "/4bf7e2ed-3223-497b-8c9a-4917a7c5fbb6/bd2e7889-cf6c-4b1b-a474-fe479248b631"
       (reference "SW85") (unit 1) (value "SW_SPST") (footprint "Kailh:Kailh_socket_MX")
-    )
-    (path "/4bf7e2ed-3223-497b-8c9a-4917a7c5fbb6/c168d555-098b-40d2-8b24-06ee65171835"
-      (reference "SW86") (unit 1) (value "SW_SPST") (footprint "Kailh:Kailh_socket_MX")
     )
     (path "/fd632faa-4435-4a18-abfe-ae5d8fdc9f31"
       (reference "U1") (unit 1) (value "kb2040") (footprint "kb2040:kb2040")
