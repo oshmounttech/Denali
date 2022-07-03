@@ -1237,17 +1237,17 @@
     (path "/fd632faa-4435-4a18-abfe-ae5d8fdc9f31"
       (reference "U1") (unit 1) (value "kb2040") (footprint "kb2040:kb2040")
     )
-    (path "/cb8c502c-8777-4908-bcec-a417c39cf62d/782e8260-ed74-490f-ba37-1d2f8f7704a8"
-      (reference "U2") (unit 1) (value "PCA9506DGG") (footprint "PCA9506:PCA9506DGG")
+    (path "/cb8c502c-8777-4908-bcec-a417c39cf62d/e5b38f4b-3620-49b5-8800-7841c010703e"
+      (reference "U2") (unit 1) (value "PCA9675PW") (footprint "PCA9675PW:SOP65P640X110-24N")
     )
-    (path "/155910c1-5cb8-473e-a85a-4a0b3c288dbb/4235b48a-000d-415d-8c5d-89ae482bcb51"
-      (reference "U3") (unit 1) (value "PCA9506DGG") (footprint "PCA9506:PCA9506DGG")
+    (path "/155910c1-5cb8-473e-a85a-4a0b3c288dbb/0ac8dc92-b253-4e52-91b8-f616b3003c0a"
+      (reference "U3") (unit 1) (value "PCA9675PW") (footprint "PCA9675PW:SOP65P640X110-24N")
     )
-    (path "/735c9d38-f728-480f-bd34-fe3dcf6ce5fc/6f96c767-0c46-489c-8ef5-271eadb79260"
-      (reference "U4") (unit 1) (value "MAX7314AEG+") (footprint "MAX7314AEG:MAX7314AEG&plus_")
+    (path "/735c9d38-f728-480f-bd34-fe3dcf6ce5fc/761ff2aa-db8d-4972-86df-91a3b25ecbeb"
+      (reference "U4") (unit 1) (value "PCA9675PW") (footprint "PCA9675PW:SOP65P640X110-24N")
     )
-    (path "/4bf7e2ed-3223-497b-8c9a-4917a7c5fbb6/82e63c52-fea5-4fd5-a134-0f7c49166c9f"
-      (reference "U5") (unit 1) (value "MAX7314AEG+") (footprint "MAX7314AEG:MAX7314AEG&plus_")
+    (path "/4bf7e2ed-3223-497b-8c9a-4917a7c5fbb6/a845ee5b-1666-4ebc-9d81-f010c1e4cf45"
+      (reference "U5") (unit 1) (value "PCA9675PW") (footprint "PCA9675PW:SOP65P640X110-24N")
     )
   )
 )
