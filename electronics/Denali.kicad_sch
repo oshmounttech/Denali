@@ -784,9 +784,6 @@
     (path "/cb4c4818-e2e2-496c-a0a5-21b8e31346a2"
       (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
-    (path "/cb8c502c-8777-4908-bcec-a417c39cf62d/d9917178-7fb0-4e2e-842f-4275ce422ab9"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
-    )
     (path "/92b4dc62-99b0-479c-926a-fcdac74a92ae"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
