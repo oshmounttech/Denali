@@ -6,4 +6,5 @@
   (lib (name "Kailh")(type "KiCad")(uri "${OSHMOUNT_LIBRARY}/Kailh/Kailh.kicad_sym")(options "")(descr ""))
   (lib (name "Adafruit")(type "KiCad")(uri "${OSHMOUNT_LIBRARY}/Adafruit/Adafruit.kicad_sym")(options "")(descr ""))
   (lib (name "PCA9675PW_118")(type "KiCad")(uri "${OSHMOUNT_LIBRARY}/PCA9675PW/PCA9675PW_118.kicad_sym")(options "")(descr ""))
+  (lib (name "1N4148")(type "KiCad")(uri "${OSHMOUNT_LIBRARY}/1N4148/1N4148.kicad_sym")(options "")(descr ""))
 )
