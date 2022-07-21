@@ -1,6 +1,7 @@
 import time
 import board
 import busio
+import adafruit_tsl2591
 from microcontroller import Pin
 
 def is_hardware_I2C(scl, sda):
@@ -33,8 +34,6 @@ for scl_pin in get_unique_pins():
             print("SCL pin:", scl_pin, "\t SDA pin:", sda_pin)
 
 i2c = board.I2C()
-i2c.scan()
-
 leftKeyboard = 20
 rightKeyboard = 22
 arrowKeyboard = 24
@@ -43,13 +42,12 @@ numberKeyboard = 26
 while not i2c.try_lock():
     pass
 
-try:
-    while True:
-        print(
-            "I2C addresses found: ",
-            [hex(device_addresses) for device_address in i2c.scan()],
-        )
-        time.sleep(2)
+print("I2C addresses found:", [hex(device_address) for device_address in i2c.scan()])
 
-finally:
-    i2c.unlock()
+i2c.unlock()
+
+tsl2591 = adafruit_tsl2591.TSL2591(i2c)
+
+while True:
+    print("Lux:", tsl2591.lux)
+    time.sleep(0.5)
